@@ -4,6 +4,22 @@
 
 Financial analysis is an essential aspect of investment management, where investors use different tools and techniques to assess the performance of different securities, including stocks and ETFs. The S&P 500 index is one of the widely used benchmarks for measuring the performance of the US stock market, representing the performance of 500 large-cap stocks listed on major stock exchanges in the United States. In this context, this repository contains three Python scripts that analyze the performance of the S&P 500 index and various sector ETFs.
 
+## Dataset
+All the data is scrapped from Yahoo Finance : https://finance.yahoo.com/
+
+* The S&P 500 index is a market-cap-weighted index that includes 500 large-cap U.S. companies.
+
+The ETF tickers are:
+
+* XLK (Technology Select Sector SPDR Fund)
+* XLV (Health Care Select Sector SPDR Fund)
+* XLF (Financial Select Sector SPDR Fund)
+* XLE (Energy Select Sector SPDR Fund)
+* XLY (Consumer Discretionary Select Sector SPDR Fund)
+* XLRE (Real Estate Select Sector SPDR Fund)
+* XLU (Utilities Select Sector SPDR Fund)
+
+
 ## S&P500&ETF.py:
 
 The S&P500&ETF.py script loads historical data for the S&P 500 index and several sector ETFs, merges the data, and calculates the cumulative returns for each security. The script also plots the cumulative returns for each security over time. This script helps investors to track the historical performance of different securities and compare their returns over time.
